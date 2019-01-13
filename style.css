@@ -1,0 +1,289 @@
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+/* Navigation Bar Start */
+nav{
+	border-bottom: solid 1px #00D1FB;
+}
+.navbar-brand{
+	width: 80px;
+	height: auto;
+}
+.this{
+	border-bottom: solid 3px #00D1FB;
+}
+.that{
+	border-bottom: solid 3px #F9F9F9;
+	transition: 0.25s;
+}
+.that:hover{
+	border-bottom: solid 3px #0076FB;
+}
+.input{
+	border: solid black 1px;
+	outline: none;
+	transition: 0.25s;
+}
+.input:hover{
+	border: solid 1px #00D1FB;
+}
+.input:focus{
+	border: solid 1px #0076FB;
+}
+.fas{
+	color: black;
+}
+.fas:focus{
+	color: red;
+}
+/* Navigation Bar End */
+
+/* Heading Style Start */
+.heading{
+	background-image: url(img/back1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.text p{
+	font-size: 23px;
+	padding-top: 9%;
+}
+.text h1{
+	font-size: 60px;
+	padding-top: 2%;
+}
+.text h3{
+	font-size: 30px;
+	padding-top: 5%;
+}
+.top{
+	width: 200px;
+	background-color: #92CFFF;
+	overflow: hidden;
+}
+.top:hover{
+	background-color: #BCE2FF;
+}
+.topbtn{
+	padding-bottom: 10%;
+	padding-top: 5%;
+}
+/* Heading Style End */
+
+/* Creative Part Style Start */
+.creative{
+	background-color: #F9F9F9;
+	overflow: hidden;
+}
+.creative h1{
+	padding-top: 5%;
+	color: #00137D;
+	font-size: 50px;
+	padding-bottom: 1%;
+}
+.creative p{
+	font-size: 22px;
+}
+.cimg{
+	box-shadow: 0px 60px 150px rgba(0,0,0,0.6);
+}
+/* Creative Part Style End */
+
+/* Feature Part Style Start */
+.feature{
+	background-color: #ECEAEA;
+}
+.feature h1{
+	padding-top: 5%;
+	color: #00137D;
+	font-size: 50px;
+	padding-bottom: 1%;
+}
+.p{
+	font-size: 22px;
+}
+.ficon{
+	color: #0098C4;
+}
+.frow{
+	padding-bottom: 4%;
+	padding-top: 2%;
+}
+/* Feature Part Style End */
+
+/* About Part Style Start */
+.about h1{
+	padding-top: 6%;
+	color: #00137D;
+	font-size: 50px;
+	padding-bottom: 2%;
+}
+.about p{
+	font-size: 20px;
+}
+.prosbar{
+	padding-top: 3%;
+}
+.probar{
+	padding-top: 3%;
+}
+.pro-1{
+	background: linear-gradient(to right,#FF00C1,#007CFF);
+	text-decoration: left;
+	width: 75%;
+}
+.pro-2{
+	background: linear-gradient(to right,#FF00C1,#007CFF);
+	text-decoration: left;
+	width: 85%;
+}
+.pro-3{
+	background: linear-gradient(to right,#FF00C1,#007CFF);
+	text-decoration: left;
+	width: 80%;
+}
+.arow{
+	padding-bottom: 5%;
+}
+.a_count{
+	background-color: #002955;
+}
+.cup{
+	font-size: 60px;
+}
+.cname{
+	font-size: 20px;
+	opacity: 1;
+}
+.cname:hover{
+	opacity: .8;
+}
+.cbor{
+	border-left: solid 1px white;
+	border-right: solid 1px white;
+}
+.climg{
+	opacity: 1;
+}
+.climg:hover{
+	opacity: 0.7;
+}
+/* About Part Style End */
+
+/* Blog Part Style Start */
+.blog h1{
+	padding-top: 5%;
+	color: #00137D;
+	font-size: 50px;
+	padding-bottom: 1%;
+}
+.bimg{
+	padding-top: 5%;
+}
+/* Blog Part Style End */
+
+/* Subscribe Part Style Start */
+.subscribe{
+	background-image: url(img/sub.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.subscribe h1{
+	padding-top: 5%;
+	font-size: 50px;
+	padding-bottom: 1%;
+}
+.subp{
+	font-size: 20px;
+}
+.subin{
+	width: 55%;
+	height: 40px;
+	border: solid 2px black;
+	transition: 0.25s;
+}
+.subin:hover{
+	border: solid 2px #00D1FB;
+}
+.subin:focus{
+	border: solid 2px #0076FB;
+}
+.subbtn{
+	width: 25%;
+	background-color: #009EFF;
+	color: white;
+}
+.subbtn:hover{
+	background-color: #43B7FF;
+}
+.subrow{
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+/* Subscribe Part Style End */
+
+/* Testimonial Part Style Start */
+.testimonial h1{
+	padding-top: 5%;
+	color: #00137D;
+	font-size: 50px;
+}
+.p{
+	font-size: 16px;
+	padding-bottom: 3%;
+	padding-top: 3%;
+}
+.testimg{
+	border-radius: 50%;
+	padding-bottom: 10%;
+}
+/* Testimonial Part Style End */
+
+/* Social Media Part Style Start */
+.slogo{
+	width: 30%;
+	height: auto;
+}
+.media{
+	font-size: 30px;
+}
+.fa-facebook:hover{
+	color: #3B5998;
+}
+.fa-twitter:hover{
+	color: #55ACEE;
+}
+.fa-instagram:hover{
+	color: #125688;
+}
+.fa-youtube:hover{
+	color: #bb0000;
+}
+.fa-pinterest:hover{
+	color: #cb2027;
+}
+/* Social Media Part Style End */
+
+/* Footer */
+.footer{
+	background-color: #D9D9D9;
+}
+.footer p{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+/* Footer */
+
+/* Scroll Top Button */
+.scrollToTop{
+	position: fixed;
+	z-index: 99;
+	height: 40px;
+	width: 40px;
+	display: block;
+	transition: 1s;
+	top: 88%;
+	left: 88%;
+}
+/* Scroll Top Button */
